@@ -18,4 +18,25 @@ class deneme {
   setAge(age) {
     this.age = age;
   }
+
+  static getAge2() {
+    console.log("static");
+  }
+
+  static getName2() {
+    console.log("static");
+  }
+
+  static setName2(name) {
+    this.name = name;
+  }
+
+  static setAge2(age) {
+    this.age = age;
+  }
 }
+
+deneme = new deneme("deneme", 12);
+
+deneme.getAge();
+deneme.getName();
