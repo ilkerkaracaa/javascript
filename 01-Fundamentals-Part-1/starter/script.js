@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -29,3 +30,33 @@ let population = 82;
 console.log("Ülke:", country);
 console.log("Kıta:", continent);
 console.log("Nüfus (milyon):", population);
+*/
+
+/*
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 23);
+console.log(typeof "true");
+
+javascriptIsFun = "YES!";
+console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+console.log(typeof null);
+
+//Challenge 2
+let isIsland = false;
+let language;
+let country = "Türkiye";
+let population = 82;
+
+console.log(isIsland);
+console.log(population);
+console.log(country);
+console.log(language);
+*/
