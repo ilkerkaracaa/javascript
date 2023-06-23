@@ -20,3 +20,12 @@ let job1 = "Programmer";
 let job2 = "Teacher";
 
 console.log(myFirstJob);
+
+//Challenge 1
+let country = "Türkiye";
+let continent = "Avrupa";
+let population = 82;
+
+console.log("Ülke:", country);
+console.log("Kıta:", continent);
+console.log("Nüfus (milyon):", population);
