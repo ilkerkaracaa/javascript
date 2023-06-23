@@ -48,15 +48,4 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
-
-//Challenge 2
-let isIsland = false;
-let language;
-let country = "Türkiye";
-let population = 82;
-
-console.log(isIsland);
-console.log(population);
-console.log(country);
-console.log(language);
 */
