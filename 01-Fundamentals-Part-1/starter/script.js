@@ -59,6 +59,7 @@ console.log(country);
 console.log(language);
 
 */
+/*
 let age = 30;
 age = 31;
 
@@ -72,3 +73,4 @@ job = "teacher";
 
 lastName = "Karaca";
 console.log(lastName);
+*/
