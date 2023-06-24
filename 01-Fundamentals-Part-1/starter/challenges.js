@@ -1,5 +1,5 @@
-const country = "Türkiye";
-const continent = "Asya";
+const country = "Turkey";
+const continent = "Asia";
 let population = 82;
 
 console.log("Ülke:", country);
@@ -7,7 +7,7 @@ console.log("Kıta:", continent);
 console.log("Nüfus (milyon):", population);
 
 const isIsland = false;
-const language = "Türkçe";
+const language = "Turkish";
 
 console.log(isIsland);
 console.log(population);
@@ -33,3 +33,5 @@ const description =
   " million people speak " +
   language;
 console.log(description);
+
+const descriptionNew = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
