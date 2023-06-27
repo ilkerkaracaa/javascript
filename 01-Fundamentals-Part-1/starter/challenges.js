@@ -87,7 +87,9 @@ switch (language) {
     console.log("Great language too :D");
 }
 */
+/*
 const population = 82;
 population > 83
   ? console.log("Turkey's population is above average")
   : console.log("Turkey's population is below average");
+*/
