@@ -56,6 +56,7 @@ if (numNeighbours === 1) {
   console.log("No borders");
 }
 */
+/*
 isSpeakingEnglish = false;
 population = 82;
 const language = "English";
@@ -85,3 +86,4 @@ switch (language) {
   default:
     console.log("Great language too :D");
 }
+*/
