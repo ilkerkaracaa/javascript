@@ -1,3 +1,4 @@
+/*
 const country = "Turkey";
 const continent = "Asia";
 let population = 82;
@@ -53,4 +54,13 @@ if (numNeighbours === 1) {
   console.log("More than 1 border");
 } else {
   console.log("No borders");
+}
+*/
+isSpeakingEnglish = false;
+population = 82;
+const language = "Turkish";
+if (isSpeakingEnglish && population < 50 && language === "English") {
+  console.log("You should live in Turkey :)");
+} else {
+  console.log("Turkey does not meet your criteria :(");
 }
