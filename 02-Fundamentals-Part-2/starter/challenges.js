@@ -9,3 +9,19 @@ const country3 = describeCountry("Norway", 5, "Oslo");
 console.log(country1);
 console.log(country2);
 console.log(country3);
+
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+console.log(percentageOfWorld1(86));
+console.log(percentageOfWorld1(10));
+console.log(percentageOfWorld1(5));
+
+const percentageOfWorld2 = function (population) {
+  return (population / 7900) * 100;
+};
+
+console.log(percentageOfWorld2(86));
+console.log(percentageOfWorld2(10));
+console.log(percentageOfWorld2(5));
