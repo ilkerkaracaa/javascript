@@ -270,3 +270,48 @@ for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repetition ${rep}`);
 }
 */
+/*
+const ilkerArray = [
+  "İlker",
+  "Karaca",
+  2023 - 1999,
+  "student",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+const types = [];
+
+for (let i = 0; i < ilkerArray.length; i++) {
+  console.log(ilkerArray[i], typeof ilkerArray[i]);
+
+  // Filling types array
+  // types[i] = typeof ilkerArray[i];
+  types.push(typeof ilkerArray[i]);
+}
+
+console.log(types);
+
+const years = [1999, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2023 - years[i]);
+}
+console.log(ages);
+
+// Continue and break
+console.log("--- ONLY STRINGS ---");
+for (let i = 0; i < ilkerArray.length; i++) {
+  if (typeof ilkerArray[i] !== "string") continue;
+
+  console.log(ilkerArray[i], typeof ilkerArray[i]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+for (let i = 0; i < ilkerArray.length; i++) {
+  if (typeof ilkerArray[i] === "number") break;
+
+  console.log(ilkerArray[i], typeof ilkerArray[i]);
+}
+*/
