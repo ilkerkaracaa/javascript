@@ -151,13 +151,3 @@ if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
 }
 */
-
-const myCountry = {
-  country: "Turkey",
-  capital: "Ankara",
-  language: "Turkish",
-  population: 83,
-  neighbours: ["Greece", "Bulgaria", "Georgia"],
-};
-
-console.log(myCountry);
