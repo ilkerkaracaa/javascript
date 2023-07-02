@@ -105,6 +105,24 @@ console.log(myCountry.population);
 myCountry["population"] -= 2;
 console.log(myCountry.population);
 */
+/*
 for (let i = 1; i <= 50; i++) {
   console.log(`Voter number ${i} is currently voting`);
 }
+*/
+/*
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const populations = [86, 10, 5, 1300];
+const percentages2 = [];
+
+for (let i = 0; i < populations.length; i++) {
+  percentages2.push(percentageOfWorld1(populations[i]));
+}
+
+for (let i = 0; i < percentages2.length; i++) {
+  console.log(percentages2[i]);
+}
+*/
