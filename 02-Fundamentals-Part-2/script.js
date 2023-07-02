@@ -265,3 +265,8 @@ if (mark.bmi > john.bmi) {
   console.log("They have the same BMI");
 }
 */
+/*
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repetition ${rep}`);
+}
+*/
