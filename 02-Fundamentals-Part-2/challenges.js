@@ -126,3 +126,23 @@ for (let i = 0; i < percentages2.length; i++) {
   console.log(percentages2[i]);
 }
 */
+/*
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const populations = [86, 10, 5, 1300];
+const percentages2 = [];
+
+let i = 0;
+while (i < populations.length) {
+  percentages2.push(percentageOfWorld1(populations[i]));
+  i++;
+}
+
+i = 0;
+while (i < percentages2.length) {
+  console.log(percentages2[i]);
+  i++;
+}
+*/
