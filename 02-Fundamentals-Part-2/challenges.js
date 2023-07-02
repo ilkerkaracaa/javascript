@@ -38,6 +38,7 @@ console.log(describePopulation("Turkey", 86));
 console.log(describePopulation("Sweden", 10));
 console.log(describePopulation("Norway", 5));
 */
+/*
 function percentageOfWorld1(population) {
   return (population / 7900) * 100;
 }
@@ -54,6 +55,7 @@ const percentages = [
 ];
 
 console.log(percentages);
+*/
 
 const neighbours = [
   "Greece",
