@@ -151,3 +151,40 @@ if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
 }
 */
+/*
+const ilker = {
+  firstName: "İlker",
+  lastName: "Karaca",
+  age: 2023 - 1999,
+  job: "student",
+  friends: ["Michael", "Peter", "Steven"],
+};
+
+console.log(ilker);
+console.log(ilker.lastName);
+console.log(ilker["lastName"]);
+
+const nameKey = "Name";
+console.log(ilker["first" + nameKey]);
+console.log(ilker["last" + nameKey]);
+
+// console.log(ilker.'last' + nameKey);
+
+const interestedIn = prompt(
+  "What do you want to know about İlker? Choose between firstName, lastName, age, job, and friends"
+);
+
+if (ilker[interestedIn]) {
+  console.log(ilker[interestedIn]);
+}
+
+ilker.location = "Turkey";
+ilker["twitter"] = "@ilkerkrc";
+console.log(ilker);
+
+// Challenge
+// "İlker has 3 friends, and his best friend is called Michael"
+console.log(
+  `${ilker.firstName} has ${ilker.friends.length} friends, and his best friend is called ${ilker.friends[0]}`
+);
+*/
