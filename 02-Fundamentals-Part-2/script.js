@@ -188,3 +188,39 @@ console.log(
   `${ilker.firstName} has ${ilker.friends.length} friends, and his best friend is called ${ilker.friends[0]}`
 );
 */
+/*
+const ilker = {
+  firstName: "İlker",
+  lastName: "Karaca",
+  birthYear: 1999,
+  job: "student",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: false,
+
+  // calcAge: function (birthYear) {
+  //   return 2023 - birthYear;
+  // },
+
+  // calcAge: function () {
+  //   // console.log(this);
+  //   return 2023 - this.birthYear;
+  // },
+
+  calcAge: function () {
+    this.age = 2023 - this.birthYear;
+    return this.age;
+  },
+};
+
+// console.log(ilker.calcAge(1999));
+// console.log(ilker["calcAge"](1999));
+console.log(ilker.calcAge());
+
+// Challenge
+// "İlker is a 46-year old teacher, and he has a driver's license"
+console.log(
+  `${ilker.firstName} is a ${ilker.age}-year old ${ilker.job}, and he has ${
+    ilker.hasDriversLicense ? "a" : "no"
+  } driver's license`
+);
+*/
