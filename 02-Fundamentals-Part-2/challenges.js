@@ -54,3 +54,26 @@ const percentages = [
 ];
 
 console.log(percentages);
+
+const neighbours = [
+  "Greece",
+  "Bulgaria",
+  "Georgia",
+  "Armenia",
+  "Iran",
+  "Iraq",
+  "Syria",
+];
+
+neighbours.push("Utopia");
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+if (!neighbours.includes("Germany")) {
+  console.log("Probably not a central European country :D");
+}
+
+neighbours[neighbours.indexOf("Syria")] = "Republic of Syria";
+console.log(neighbours);
