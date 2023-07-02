@@ -56,7 +56,7 @@ const percentages = [
 
 console.log(percentages);
 */
-
+/*
 const neighbours = [
   "Greece",
   "Bulgaria",
@@ -79,3 +79,4 @@ if (!neighbours.includes("Germany")) {
 
 neighbours[neighbours.indexOf("Syria")] = "Republic of Syria";
 console.log(neighbours);
+*/
