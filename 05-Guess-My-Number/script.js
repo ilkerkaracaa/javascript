@@ -12,7 +12,7 @@ document.querySelector('.guess').value = 23;
 console.log(document.querySelector('.guess').value);
 */
 
-const number = Math.trunc(Math.random() * 20) + 1;
+let number = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
 
@@ -81,5 +81,15 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 document.querySelector('.again').addEventListener('click', function () {
-  window.location.reload();
+  score = 20;
+  number = Math.trunc(Math.random() * 20) + 1;
+
+  // document.querySelector('.message').textContent = 'Start guessing...';
+  displayMessage('Start guessing...');
+  document.querySelector('.score').textContent = score;
+  document.querySelector('.number').textContent = '?';
+  document.querySelector('.guess').value = '';
+
+  document.querySelector('body').style.backgroundColor = '#222';
+  document.querySelector('.number').style.width = '15rem';
 });
