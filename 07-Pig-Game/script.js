@@ -30,7 +30,7 @@ const init = function () {
   diceEl.classList.add('hidden'); // hide the dice at the beginning of the game
   player0El.classList.remove('player--winner'); // remove the winner class from both players
   player1El.classList.remove('player--winner');
-  player0El.classList.add('player--active'); // add the active class to the first player
+  player1El.classList.add('player--active'); // add the active class to the first player
   player1El.classList.remove('player--active');
 };
 
@@ -73,7 +73,7 @@ btnHold.addEventListener('click', function () {
       scores[activePlayer]; // change the score in the UI
 
     // 2. Check if player's score is >= 100
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       // Finish the game
       playing = false; // set playing to false to stop the game
       diceEl.classList.add('hidden'); // hide the dice
