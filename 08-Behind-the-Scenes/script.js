@@ -186,7 +186,7 @@ friend.age = 27;
 console.log('Friend:', friend);
 console.log('Me:', me);
 */
-/*
+
 let lastName = 'Williams';
 let oldLastName = lastName;
 lastName = 'Davis';
@@ -222,4 +222,3 @@ ilkerCopy.family.push('John');
 
 console.log('Before marriage:', ilker2);
 console.log('After marriage:', ilkerCopy);
-*/
