@@ -33,7 +33,7 @@ function calcAge(birthYear) {
   return age;
 }
 */
-
+/*
 console.log(me);
 // console.log(job);
 // console.log(year);
@@ -73,3 +73,42 @@ const z = 3;
 console.log(x === window.x);
 console.log(y === window.y);
 console.log(z === window.z);
+*/
+
+/*
+console.log(this);
+
+const calcAge = function (birthYear) {
+  console.log(2021 - birthYear);
+  console.log(this);
+};
+
+calcAge(1991);
+
+const calcAgeArrow = birthYear => {
+  console.log(2021 - birthYear);
+  console.log(this);
+};
+
+calcAgeArrow(1991);
+
+const ilker = {
+  year: 1998,
+  calcAge: function () {
+    console.log(this);
+    console.log(2021 - this.year);
+  },
+};
+
+ilker.calcAge();
+
+const matilda = {
+  year: 2017,
+};
+
+matilda.calcAge = ilker.calcAge;
+matilda.calcAge();
+
+const f = ilker.calcAge;
+f();
+*/
