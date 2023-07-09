@@ -186,3 +186,39 @@ friend.age = 27;
 console.log('Friend:', friend);
 console.log('Me:', me);
 */
+
+let lastName = 'Williams';
+let oldLastName = lastName;
+lastName = 'Davis';
+
+console.log(lastName, oldLastName);
+
+const ilker = {
+  firstName: 'İlker',
+  lastName: 'Kılıç',
+  age: 24,
+};
+
+const marriedIlker = ilker;
+marriedIlker.lastName = 'Davis';
+
+console.log('Before marriage:', ilker);
+console.log('After marriage:', marriedIlker);
+
+// marriedIlker = {};
+
+const ilker2 = {
+  firstName: 'İlker',
+  lastName: 'Kılıç',
+  age: 24,
+  family: ['Alice', 'Bob'],
+};
+
+const ilkerCopy = Object.assign({}, ilker2);
+ilkerCopy.lastName = 'Davis';
+
+ilkerCopy.family.push('Mary');
+ilkerCopy.family.push('John');
+
+console.log('Before marriage:', ilker2);
+console.log('After marriage:', ilkerCopy);
