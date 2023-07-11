@@ -27,3 +27,12 @@ const restaurant = {
     },
   },
 };
+
+const deneme = {
+  name: 'Deneme',
+  surname: 'Deneme',
+  age: 23,
+  denemeler: function () {
+    console.log(this.name);
+  },
+};
