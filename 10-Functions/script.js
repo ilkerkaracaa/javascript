@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 // The call and apply Methods
 const lufthansa = {
   airline: 'Lufthansa',
