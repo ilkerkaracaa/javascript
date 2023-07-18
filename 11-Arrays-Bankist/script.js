@@ -61,10 +61,51 @@ const inputLoanAmount = document.querySelector('.form__input--loan-amount');
 const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
+const displayMovements = function (movements) {
+  containerMovements.innerHTML = '';
+
+  movements.forEach(function (mov, i) {
+    const type = mov > 0 ? 'deposit' : 'withdrawal';
+
+    const html = `
+      <div class="movements__row">
+        <div class="movements__type movements__type--${type}">${
+      i + 1
+    } ${type}</div>
+        <div class="movements__value">${mov}€</div>
+      </div>
+    `;
+
+    containerMovements.insertAdjacentHTML('afterbegin', html);
+  });
+};
+
+displayMovements(account1.movements);
+
+//Challenge 1
+const dogsJulia = [3, 5, 2, 12, 7];
+const dogsKate = [4, 1, 15, 8, 3];
+const checkDogs = function (dogsJulia, dogsKate) {
+  const arr = dogsJulia.slice();
+  arr.splice(-2);
+  arr.splice(0, 1);
+  const arr2 = arr.concat(dogsKate);
+  arr2.forEach(function (value, i) {
+    if (value >= 3) {
+      console.log(`Dog number ${i + 1} is an adult, and is ${value} years old`);
+    } else {
+      console.log(`Dog number ${i + 1} is still a puppy 🐶`);
+    }
+  });
+};
+checkDogs(dogsJulia, dogsKate);
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
 
+/////////////////////////////////////////////////
+
+/*
 const currencies = new Map([
   ['USD', 'United States dollar'],
   ['EUR', 'Euro'],
@@ -73,8 +114,7 @@ const currencies = new Map([
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
-/////////////////////////////////////////////////
-/*
+
 // Simple Array Methods
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
