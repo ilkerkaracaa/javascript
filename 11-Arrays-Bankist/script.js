@@ -254,4 +254,18 @@ console.log(depositsFor);
 const withdrawals = movements.filter(mov => mov < 0);
 console.log(withdrawals);
 
+const createUsernames = function (accs) {
+  accs.forEach(function (acc) {
+    acc.username = acc.owner
+      .toLowerCase()
+      .split(' ')
+      .map(function (value) {
+        return value[0];
+      })
+      .join('');
+  });
+};
+
+createUsernames(accounts);
+console.log(accounts);
 */
