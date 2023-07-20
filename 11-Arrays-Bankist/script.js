@@ -82,32 +82,23 @@ const displayMovements = function (movements) {
 
 displayMovements(account1.movements);
 
-const calcDisplayBalance = function (acc) {
-  acc.balance = acc.movements.reduce((acc, mov) => acc + mov, 0);
-  labelBalance.textContent = `${acc.balance}€`;
+const calcDisplayBalance = function (movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  labelBalance.textContent = `${balance}€`;
 };
+calcDisplayBalance(account1.movements);
 
-const calcDisplaySummary = function (acc) {
-  const incomes = acc.movements
+const calcDisplaySummary = function (movements) {
+  const incomes = movements
     .filter(mov => mov > 0)
     .reduce((acc, mov) => acc + mov, 0);
   labelSumIn.textContent = `${incomes}€`;
-
-  const out = acc.movements
+  const out = movements
     .filter(mov => mov < 0)
     .reduce((acc, mov) => acc + mov, 0);
   labelSumOut.textContent = `${Math.abs(out)}€`;
-
-  const interest = acc.movements
-    .filter(mov => mov > 0)
-    .map(deposit => (deposit * acc.interestRate) / 100)
-    .filter((int, i, arr) => {
-      // console.log(arr);
-      return int >= 1;
-    })
-    .reduce((acc, int) => acc + int, 0);
-  labelSumInterest.textContent = `${interest}€`;
 };
+calcDisplaySummary(account1.movements);
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 /*
@@ -354,5 +345,20 @@ const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
 console.log(avg1);
 const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
 console.log(avg2);
+
+const eurToUsd = 1.1;
+// PIPELINE
+const totalDepositsUSD = movements
+  .filter(mov => mov > 0)
+  .map(
+    (mov, i, arr) => {
+      console.log(arr);
+      return mov * eurToUsd;
+    }
+    // .map(mov => mov * eurToUsd)
+  )
+  .reduce((acc, mov) => acc + mov, 0);
+console.log(totalDepositsUSD);
+
 
 */
