@@ -1,5 +1,51 @@
 'use strict';
 
-const Person = function (firstName, birthYear) {};
+const Person = function (firstName, birthYear) {
+  // Instance properties
+  this.firstName = firstName;
+  this.birthYear = birthYear;
 
-new Person('Ilker', 1998);
+  // Never do this
+  // this.calcAge = function () {
+  //   console.log(2037 - this.birthYear);
+  // };
+};
+
+const ilker = new Person('Ilker', 1998);
+console.log(ilker);
+
+// 1. New {} is created
+// 2. function is called, this = {}
+// 3. {} linked to prototype
+// 4. function automatically return {}
+
+const matilda = new Person('Matilda', 2017);
+const jack = new Person('Jack', 1975);
+console.log(matilda, jack);
+
+console.log(ilker instanceof Person);
+
+// Prototypes
+console.log(Person.prototype);
+
+Person.prototype.calcAge = function () {
+  console.log(2037 - this.birthYear);
+};
+
+ilker.calcAge();
+matilda.calcAge();
+
+console.log(ilker.__proto__);
+console.log(ilker.__proto__ === Person.prototype);
+
+console.log(Person.prototype.isPrototypeOf(ilker));
+console.log(Person.prototype.isPrototypeOf(matilda));
+console.log(Person.prototype.isPrototypeOf(Person));
+
+// .prototypeOfLinkedObjects
+
+Person.prototype.species = 'Homo Sapiens';
+console.log(ilker.species, matilda.species);
+
+console.log(ilker.hasOwnProperty('firstName'));
+console.log(ilker.hasOwnProperty('species'));
