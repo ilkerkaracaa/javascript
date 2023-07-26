@@ -166,7 +166,7 @@ jessica.greet();
 // 2. Classes are first-class citizens
 // 3. Classes are executed in strict mode
 
-const walter = new PersonCl('Walter', 1965);
+const walter = new PersonCl('Walter White', 1965);
 // PersonCl.hey();
 
 ///////////////////////////////////////
@@ -188,3 +188,5 @@ console.log(account.latest);
 
 account.latest = 50;
 console.log(account.movements);
+
+PersonCl.hey();
