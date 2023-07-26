@@ -49,3 +49,21 @@ console.log(ilker.species, matilda.species);
 
 console.log(ilker.hasOwnProperty('firstName'));
 console.log(ilker.hasOwnProperty('species'));
+
+const arr = [3, 2, 5, 6, 7, 8];
+console.log(arr.__proto__);
+console.log(arr.__proto__ === Array.prototype);
+console.log(arr.__proto__.__proto__);
+console.log(Array.prototype);
+console.log(Array);
+console.log(Object.prototype);
+
+console.log(ilker);
+
+Array.prototype.unique = function () {
+  return [...new Set(this)];
+};
+
+console.log(arr.unique());
+const h1 = document.querySelector('h1');
+console.dir(x => x + 1);
