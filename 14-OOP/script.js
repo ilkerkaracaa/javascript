@@ -580,3 +580,14 @@ tesla.accelerate();
 tesla.accelerate();
 console.log(tesla.brake().accelerate().chargeBattery(90));
 */
+
+const Person = function (firstName, birthYear) {
+  // Instance properties
+  this.firstName = firstName;
+  this.birthYear = birthYear;
+
+  // Never do this
+  // this.calcAge = function () {
+  //   console.log(2037 - this.birthYear);
+  // };
+};
