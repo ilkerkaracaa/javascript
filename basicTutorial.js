@@ -110,3 +110,17 @@
 
 // alert("Sum=" + calculator.sum());
 // alert("Mul=" + calculator.mul());
+
+// function Accumulator(number) {
+//   this.value = number;
+//   this.read = function () {
+//     this.value += +prompt("How much to add?", 0);
+//   };
+// }
+
+// let accumulator = new Accumulator(1); // initial value 1
+
+// accumulator.read(); // adds the user-entered value
+// accumulator.read(); // adds the user-entered value
+
+// alert(accumulator.value); // shows the sum of these values
