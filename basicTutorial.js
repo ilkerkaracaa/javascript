@@ -89,3 +89,24 @@
 // };
 
 // ladder.up().up().down().showStep().down().showStep();
+
+// function Calculator() {
+//   this.read = function () {
+//     this.a = +prompt("enter a number");
+//     this.b = +prompt("enter a number");
+//   };
+
+//   this.sum = function () {
+//     return this.a + this.b;
+//   };
+
+//   this.mul = function () {
+//     return this.a * this.b;
+//   };
+// }
+
+// let calculator = new Calculator();
+// calculator.read();
+
+// alert("Sum=" + calculator.sum());
+// alert("Mul=" + calculator.mul());
