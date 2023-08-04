@@ -151,3 +151,11 @@
 // alert(random(1, 5));
 // alert(random(1, 5));
 // alert(random(1, 5));
+
+// function randomInteger(min, max) {
+//   return min + Math.round(Math.random() * max - 1);
+// }
+
+// alert(randomInteger(1, 5));
+// alert(randomInteger(1, 5));
+// alert(randomInteger(1, 5));
