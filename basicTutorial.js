@@ -124,3 +124,7 @@
 // accumulator.read(); // adds the user-entered value
 
 // alert(accumulator.value); // shows the sum of these values
+
+// let numberOne = +prompt("enter a number");
+// let numberTwo = +prompt("enter a number");
+// alert(numberOne + numberTwo);
