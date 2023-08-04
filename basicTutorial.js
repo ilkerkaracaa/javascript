@@ -128,3 +128,18 @@
 // let numberOne = +prompt("enter a number");
 // let numberTwo = +prompt("enter a number");
 // alert(numberOne + numberTwo);
+
+// function readNumber() {
+//   let num;
+
+//   do {
+//     num = prompt("Enter a number please?", 0);
+//     console.log(!isFinite(num));
+//   } while (!isFinite(num));
+
+//   if (num === null || num === "") return null;
+
+//   return +num;
+// }
+
+// alert(`Read: ${readNumber()}`);
