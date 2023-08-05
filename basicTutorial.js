@@ -159,3 +159,11 @@
 // alert(randomInteger(1, 5));
 // alert(randomInteger(1, 5));
 // alert(randomInteger(1, 5));
+
+// function ucFirst(string) {
+//   let firstBigCharacter = string.charAt(0).toUpperCase();
+//   let result = firstBigCharacter + string.slice(1);
+//   return result;
+// }
+
+// console.log(ucFirst("alooo"));
