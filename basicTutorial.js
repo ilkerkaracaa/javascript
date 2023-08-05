@@ -192,3 +192,14 @@
 
 // truncate("What I'd like to tell on this topic is:", 20);
 // truncate("Hi everyone!", 20);
+
+// function extractCurrencyValue(string) {
+//   return Number(string.slice(1));
+// }
+// alert(extractCurrencyValue("$121") === 121); // true
+
+// let styles = ["Jazz", "Blues"];
+// styles.push("Rock-n-Roll");
+// styles[Math.floor((styles.length - 1) / 2)] = "Classics";
+// alert( styles.shift() );
+// styles.unshift("Rap", "Reggae");
