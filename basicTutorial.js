@@ -167,3 +167,17 @@
 // }
 
 // console.log(ucFirst("alooo"));
+
+// function checkSpam(string) {
+//   if (string.toLowerCase().indexOf("viagra") != -1) {
+//     return true;
+//   } else if (string.toLowerCase().indexOf("xxx") != -1) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(checkSpam("buy ViAgRA now"));
+// console.log(checkSpam("free xxxxx"));
+// console.log(checkSpam("innocent rabbit"));
