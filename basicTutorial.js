@@ -181,3 +181,14 @@
 // console.log(checkSpam("buy ViAgRA now"));
 // console.log(checkSpam("free xxxxx"));
 // console.log(checkSpam("innocent rabbit"));
+
+// function truncate(string, number) {
+//   if (string.length > number) {
+//     console.log(string.slice(0, number - 1) + "...");
+//   } else {
+//     console.log(string.slice(0, number));
+//   }
+// }
+
+// truncate("What I'd like to tell on this topic is:", 20);
+// truncate("Hi everyone!", 20);
