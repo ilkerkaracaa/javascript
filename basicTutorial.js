@@ -203,3 +203,32 @@
 // styles[Math.floor((styles.length - 1) / 2)] = "Classics";
 // alert( styles.shift() );
 // styles.unshift("Rap", "Reggae");
+
+// function sumInput() {
+//   let numbers = [];
+
+//   while (true) {
+//     let value = prompt("A number please?", 0);
+
+//     // should we cancel?
+//     if (value === "" || value === null || !isFinite(value)) break;
+
+//     numbers.push(+value);
+//   }
+
+//   let sum = 0;
+//   for (let number of numbers) {
+//     sum += number;
+//   }
+//   return sum;
+// }
+
+// alert(sumInput());
+
+// let arr = ["t", "e", "s", "t"];
+
+// alert(typeof arr.slice(1, 3)); // e,s (copy from 1 to 3)
+
+// alert(typeof arr.slice(-2)); // s,t (copy from -2 till the end)
+
+// alert(typeof "sdfsdf");
