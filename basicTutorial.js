@@ -260,19 +260,37 @@
 // alert(soldiers[0].age); // 20
 // alert(soldiers[1].age); // 23
 
-function camelize(string) {
-  let result = "";
-  let arr = string.split("-");
-  for (let value of arr) {
-    if (arr[0] === value) {
-      result += value;
-      continue;
-    }
-    result += value.charAt(0).toUpperCase() + value.slice(1);
-  }
-  alert(result);
-}
+// function camelize(string) {
+//   let result = "";
+//   let arr = string.split("-");
+//   for (let value of arr) {
+//     if (arr[0] === value) {
+//       result += value;
+//       continue;
+//     }
+//     result += value.charAt(0).toUpperCase() + value.slice(1);
+//   }
+//   alert(result);
+// }
 
-camelize("background-color");
-camelize("list-style-image");
-camelize("-webkit-transition");
+// camelize("background-color");
+// camelize("list-style-image");
+// camelize("-webkit-transition");
+
+// function filterRangeInPlace(arr, a, b) {
+//   for (let i = 0; i < arr.length; i++) {
+//     let val = arr[i];
+
+//     // remove if outside of the interval
+//     if (val < a || val > b) {
+//       arr.splice(i, 1);
+//       i--;
+//     }
+//   }
+// }
+
+// let arr = [5, 3, 8, 1];
+
+// filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
+
+// alert(arr); // [3, 1]
