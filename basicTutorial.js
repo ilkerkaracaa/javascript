@@ -294,3 +294,9 @@
 // filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
 
 // alert(arr); // [3, 1]
+
+// let arr = [5, 2, 1, -10, 8];
+
+// arr.sort((a, b) => a - b);
+
+// alert(arr);
