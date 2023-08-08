@@ -344,3 +344,38 @@
 // let map = new Map(Object.entries(obj));
 
 // alert(map); // John
+
+// function unique(arr) {
+//   return Array.from(new Set(arr));
+// }
+
+// let values = [
+//   "Hare",
+//   "Krishna",
+//   "Hare",
+//   "Krishna",
+//   "Krishna",
+//   "Krishna",
+//   "Hare",
+//   "Hare",
+//   ":-O",
+// ];
+
+// alert(unique(values)); // Hare, Krishna, :-O
+
+// function sumSalaries(salaries) {
+//   let sum = 0;
+//   for (let salary of Object.values(salaries)) {
+//     sum += salary;
+//   }
+
+//   return sum; // 650
+// }
+
+// let salaries = {
+//   John: 100,
+//   Pete: 300,
+//   Mary: 250,
+// };
+
+// alert(sumSalaries(salaries)); // 650
