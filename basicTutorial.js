@@ -332,3 +332,15 @@
 
 // let result = powerCalc.calculate("2 ** 3");
 // alert(result); // 8
+
+// let obj = {
+//   name: "John",
+//   age: 30,
+// };
+
+// let arr = Object.entries(obj);
+// alert(arr);
+
+// let map = new Map(Object.entries(obj));
+
+// alert(map); // John
