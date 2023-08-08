@@ -391,3 +391,34 @@
 // alert(title); // Menu
 // alert(width); // 100
 // alert(height); // 200
+
+// let user = {
+//   name: "John",
+//   years: 30,
+// };
+
+// let { name, years: age, isAdmin = false } = user;
+
+// alert(name); // John
+// alert(age); // 30
+// alert(isAdmin); // false
+
+// let salaries = {
+//   John: 100,
+//   Pete: 300,
+//   Mary: 250,
+// };
+
+// function topSalary(obj) {
+//   let maxSalaries = 0;
+//   let name;
+//   for (const [key, value] of Object.entries(obj)) {
+//     if (value > maxSalaries) {
+//       maxSalaries = value;
+//       name = key;
+//     }
+//   }
+//   return name;
+// }
+
+// alert(topSalary(salaries));
