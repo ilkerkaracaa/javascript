@@ -514,3 +514,13 @@
 
 // let user2 = JSON.parse(JSON.stringify(user));
 // alert(user2.age);
+
+// function sumTo(n) {
+//   if (n === 1) {
+//     return n;
+//   } else {
+//     return n + sumTo(n - 1);
+//   }
+// }
+
+// alert(sumTo(100)); // 5050
