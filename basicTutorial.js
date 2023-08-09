@@ -524,3 +524,28 @@
 // }
 
 // alert(sumTo(100)); // 5050
+
+// function factorial(n) {
+//   if (n === 1) {
+//     return n;
+//   } else {
+//     return n * factorial(n - 1);
+//   }
+// }
+
+// alert(factorial(5)); // 120
+
+// function fib(n) {
+//   let a = 1;
+//   let b = 1;
+//   for (let i = 3; i <= n; i++) {
+//     let c = a + b;
+//     a = b;
+//     b = c;
+//   }
+//   return b;
+// }
+
+// alert(fib(3)); // 2
+// alert(fib(7)); // 13
+// alert(fib(77)); // 5527939700884757
