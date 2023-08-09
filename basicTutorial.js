@@ -422,3 +422,44 @@
 // }
 
 // alert(topSalary(salaries));
+
+// let date = new Date(2012, 0, 3); // 3 Jan 2012
+// alert(getWeekDay(date)); // should output "TU"
+
+// function getWeekDay(date) {
+//   switch (date.getDate()) {
+//     case 0:
+//       alert("MO");
+//       break;
+//     case 1:
+//       alert("TU");
+//       break;
+//     case 2:
+//       alert("WE");
+//       break;
+//     case 3:
+//       alert("TH");
+//       break;
+//     case 4:
+//       alert("FR");
+//       break;
+//     case 5:
+//       alert("SA");
+//       break;
+//     case 6:
+//       alert("SU");
+//       break;
+//     default:
+//       break;
+//   }
+// }
+
+// function getWeekDay(date) {
+//   let days = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
+
+//   return days[date.getDay()];
+// }
+
+// let date = new Date(2014, 0, 3); // 3 Jan 2014
+// alert(date.getDay());
+// alert(getWeekDay(date)); // FR
