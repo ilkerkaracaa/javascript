@@ -549,3 +549,9 @@
 // alert(fib(3)); // 2
 // alert(fib(7)); // 13
 // alert(fib(77)); // 5527939700884757
+
+// let arr = [2, 23, 4, 5, 6, 7];
+
+// for (const iterator of arr) {
+//   alert(iterator);
+// }
