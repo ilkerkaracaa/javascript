@@ -562,3 +562,51 @@
 //   };
 // }
 // alert(sum(5)(-1));
+
+// let x = 1;
+
+// function func() {
+//   console.log(x); // ?
+
+//   let x = 2;
+// }
+
+// func();
+
+/* .. your code for inBetween and inArray */
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// alert(arr.filter(inBetween(3, 6))); // 3,4,5,6
+
+// alert(arr.filter(inArray([1, 2, 10]))); // 1,2
+
+// function inBetween(a, b) {
+//   return function (x) {
+//     return x >= a && x <= b;
+//   };
+// }
+
+// let users = [
+//   { name: "John", age: 20, surname: "Johnson" },
+//   { name: "Pete", age: 18, surname: "Peterson" },
+//   { name: "Ann", age: 19, surname: "Hathaway" },
+// ];
+
+// function byField(fieldName) {
+//   return (a, b) => (a[fieldName] > b[fieldName] ? 1 : -1);
+// }
+
+// alert(users.sort(byField("name")));
+// alert(users.sort(byField("age")));
+console.log(
+  "I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?"
+); // line break
+console.log("Days\tTopics\tExercises");
+console.log("Day 1\t3\t5");
+console.log("Day 2\t3\t5");
+console.log("Day 3\t3\t5");
+console.log("Day 4\t3\t5");
+console.log("This is a backslash  symbol (\\)"); // To write a backslash
+console.log('In every programming language it starts with "Hello, World!"');
+console.log("In every programming language it starts with 'Hello, World!'");
+console.log("The saying 'Seeing is Believing' isn't correct in 2020");
