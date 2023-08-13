@@ -669,3 +669,12 @@
 // const areAllStr = names.every((name) => typeof name === "string"); // Are all strings?
 
 // console.log(areAllStr);
+
+// const names = [11, "Mathias", "Elias", "Brook"];
+// const bools = [false, true, true, true];
+
+// const areSomeTrue = bools.some((b) => b === true);
+
+// console.log(areSomeTrue); //true
+// const areAllStr = names.some((name) => typeof name === "number"); // Are all strings ?
+// console.log(areAllStr); // false
