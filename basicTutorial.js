@@ -598,15 +598,59 @@
 
 // alert(users.sort(byField("name")));
 // alert(users.sort(byField("age")));
-console.log(
-  "I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?"
-); // line break
-console.log("Days\tTopics\tExercises");
-console.log("Day 1\t3\t5");
-console.log("Day 2\t3\t5");
-console.log("Day 3\t3\t5");
-console.log("Day 4\t3\t5");
-console.log("This is a backslash  symbol (\\)"); // To write a backslash
-console.log('In every programming language it starts with "Hello, World!"');
-console.log("In every programming language it starts with 'Hello, World!'");
-console.log("The saying 'Seeing is Believing' isn't correct in 2020");
+// console.log(
+//   "I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?"
+// ); // line break
+// console.log("Days\tTopics\tExercises");
+// console.log("Day 1\t3\t5");
+// console.log("Day 2\t3\t5");
+// console.log("Day 3\t3\t5");
+// console.log("Day 4\t3\t5");
+// console.log("This is a backslash  symbol (\\)"); // To write a backslash
+// console.log('In every programming language it starts with "Hello, World!"');
+// console.log("In every programming language it starts with 'Hello, World!'");
+// console.log("The saying 'Seeing is Believing' isn't correct in 2020");
+
+// let string = "JavaScript";
+// console.log(string.substr(4, 6)); // Script
+
+// const person = {
+//   firstName: "Asabeneh",
+//   lastName: "Yetayeh",
+//   age: 250,
+//   country: "Finland",
+//   city: "Helsinki",
+//   skills: [
+//     "HTML",
+//     "CSS",
+//     "JavaScript",
+//     "React",
+//     "Node",
+//     "MongoDB",
+//     "Python",
+//     "D3.js",
+//   ],
+//   getFullName: function () {
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+// };
+// person.nationality = "Ethiopian";
+// person.country = "Finland";
+// person.title = "teacher";
+// person.skills.push("Meteor");
+// person.skills.push("SasS");
+// person.isMarried = true;
+
+// person.getPersonInfo = function () {
+//   let skillsWithoutLastSkill = this.skills
+//     .splice(0, this.skills.length - 1)
+//     .join(", ");
+//   let lastSkill = this.skills.splice(this.skills.length - 1);
+
+//   let skills = `${skillsWithoutLastSkill}, and ${lastSkill}`;
+//   let fullName = this.getFullName();
+//   let statement = `${fullName} is a ${this.title}.\nHe lives in ${this.country}.\nHe teaches ${skills}.`;
+//   return statement;
+// };
+// console.log(person);
+// console.log(person.getPersonInfo());
