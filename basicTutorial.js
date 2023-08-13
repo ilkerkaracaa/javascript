@@ -664,3 +664,8 @@
 //   return callback(n) * n;
 // }
 // console.log(cube(callback, 3));
+
+// const names = [11, "Mathias", "Elias", "Brook"];
+// const areAllStr = names.every((name) => typeof name === "string"); // Are all strings?
+
+// console.log(areAllStr);
