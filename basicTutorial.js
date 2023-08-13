@@ -678,3 +678,16 @@
 // console.log(areSomeTrue); //true
 // const areAllStr = names.some((name) => typeof name === "number"); // Are all strings ?
 // console.log(areAllStr); // false
+
+// let a = [1, 2, 3, 4, 5];
+// let b = [3, 4, 5, 6];
+
+// let A = new Set(a);
+// let B = new Set(b);
+
+// let c = a.filter((num) => B.has(num));
+// console.log(c);
+
+// let C = new Set(c);
+
+// console.log(C);
