@@ -839,3 +839,122 @@
 //   console.log(name, city);
 // });
 // console.timeEnd("forEach loop");
+
+// console.assert(4 > 3, "4 is greater than 3"); // no result
+// console.assert(3 > 4, "3 is not greater than 4"); // Assertion failed: 3 is not greater than 4
+
+// for (let i = 0; i <= 10; i += 1) {
+//   let errorMessage = `${i} is not even`;
+//   console.log("the # is " + i);
+//   console.assert(i % 2 === 0, { number: i, errorMessage: errorMessage });
+// }
+
+// const names = ["Asabeneh", "Brook", "David", "John"];
+// const countries = [
+//   ["Finland", "Helsinki"],
+//   ["Sweden", "Stockholm"],
+//   ["Norway", "Oslo"],
+// ];
+// const user = {
+//   name: "Asabeneh",
+//   title: "Programmer",
+//   country: "Finland",
+//   city: "Helsinki",
+//   age: 250,
+// };
+// const users = [
+//   {
+//     name: "Asabeneh",
+//     title: "Programmer",
+//     country: "Finland",
+//     city: "Helsinki",
+//     age: 250,
+//   },
+//   {
+//     name: "Eyob",
+//     title: "Teacher",
+//     country: "Sweden",
+//     city: "London",
+//     age: 25,
+//   },
+//   {
+//     name: "Asab",
+//     title: "Instructor",
+//     country: "Norway",
+//     city: "Oslo",
+//     age: 22,
+//   },
+//   {
+//     name: "Matias",
+//     title: "Developer",
+//     country: "Denmark",
+//     city: "Copenhagen",
+//     age: 28,
+//   },
+// ];
+
+// console.group("Names");
+// console.log(names);
+// console.log(countries);
+// console.groupEnd();
+
+// console.group("Users");
+// console.log(user);
+// console.log(users);
+// console.groupEnd();
+
+// const usersText = `{
+//   "users":[
+//     {
+//       "firstName":"Asabeneh",
+//       "lastName":"Yetayeh",
+//       "age":250,
+//       "email":"asab@asb.com"
+//     },
+//     {
+//       "firstName":"Alex",
+//       "lastName":"James",
+//       "age":25,
+//       "email":"alex@alex.com"
+//     },
+//     {
+//     "firstName":"Lidiya",
+//     "lastName":"Tekle",
+//     "age":28,
+//     "email":"lidiya@lidiya.com"
+//     }
+//   ]
+//   }`;
+
+// const usersObj = JSON.parse(usersText, undefined, 4);
+// console.log(usersObj);
+
+// const usersText = `{
+//   "users":[
+//     {
+//       "firstName":"Asabeneh",
+//       "lastName":"Yetayeh",
+//       "age":250,
+//       "email":"asab@asb.com"
+//     },
+//     {
+//       "firstName":"Alex",
+//       "lastName":"James",
+//       "age":25,
+//       "email":"alex@alex.com"
+//     },
+//     {
+//     "firstName":"Lidiya",
+//     "lastName":"Tekle",
+//     "age":28,
+//     "email":"lidiya@lidiya.com"
+//     }
+//   ]
+//   }`;
+
+// const usersObj = JSON.parse(usersText, (key, value) => {
+//   let newValue =
+//     typeof value == "string" && key != "email" ? value.toUpperCase() : value;
+//   return newValue;
+// });
+// console.log(usersObj);
