@@ -731,3 +731,9 @@
 // };
 
 // console.log(getPersonInfo(person));
+
+// const pattern = /[a].+/g; // . any character, + any character one or more times
+// const txt = "Apple and banana are fruits";
+// const matches = txt.match(pattern);
+
+// console.log(matches); // ['and banana are fruits']
