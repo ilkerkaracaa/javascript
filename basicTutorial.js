@@ -742,3 +742,9 @@
 // const pattern = /\\b\w{4}\b/g; //  exactly four character words
 // const matches = txt.match(pattern);
 // console.log(matches); //['This', 'made', '2019']
+
+// let patternn = /^[A-Z][a-z]{3,6}$/;
+// let name = "Asabeneh";
+// let result = patternn.test(name);
+
+// console.log(result); // true
