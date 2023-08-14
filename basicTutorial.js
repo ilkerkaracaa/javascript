@@ -748,3 +748,13 @@
 // let result = patternn.test(name);
 
 // console.log(result); // true
+
+// console.log("%c30 Days Of JavaScript", "color:red"); // log output is green
+// console.log(
+//   "%c30 Days%c %cOf%c %cJavaScript%c",
+//   "color:green",
+//   "",
+//   "color:red",
+//   "",
+//   "color:yellow"
+// ); // log output green red and yellow text
