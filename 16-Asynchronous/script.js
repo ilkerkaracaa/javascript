@@ -247,3 +247,20 @@ const getJSON = function (url, errorMsg = 'Something went wrong') {
 // whereAmI(52.508, 13.381);
 // //whereAmI(19.037, 72.873);
 // //whereAmI(-33.933, 18.474);
+
+const soz = new Promise((resolve, reject) => {
+  console.log('Piyango çekilişi yapiliyor.....');
+  setTimeout(function () {
+    if (Math.random() >= 0.5) {
+      resolve('You Win');
+    } else {
+      reject(new Error('You Lost'));
+    }
+  }, 3000);
+});
+
+soz
+  .then(data => {
+    console.log(data);
+  })
+  .catch(err => console.error(err));
