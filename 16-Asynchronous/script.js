@@ -264,3 +264,27 @@ const getJSON = function (url, errorMsg = 'Something went wrong') {
 //     console.log(data);
 //   })
 //   .catch(err => console.error(err));
+
+// const wait = function (second) {
+//   return new Promise(function (resolve) {
+//     setTimeout(resolve, second * 1000);
+//   });
+// };
+
+// wait(1)
+//   .then(() => {
+//     console.log('1 second passed');
+//     return wait(1);
+//   })
+//   .then(() => {
+//     console.log('2 second passed');
+//     return wait(1);
+//   })
+//   .then(() => {
+//     console.log('3 second passed');
+//     return wait(1);
+//   })
+//   .then(() => console.log('4 second passed'));
+
+// Promise.resolve('deneme').then(data => console.log(data));
+// Promise.reject(new Error('Error')).catch(err => console.error(err));
